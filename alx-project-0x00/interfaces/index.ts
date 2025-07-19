@@ -1,4 +1,4 @@
 export interface PillProps {
     title: string;
-    style?: string;
+    styles?: string;
 }
