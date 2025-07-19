@@ -17,27 +17,27 @@ const LandingPage = () => {
       <div className="space-y-2">
         <h2 className="font-medium">Small Buttons</h2>
         <div className="flex gap-4">
-          <Button title="Small SM" className="text-sm rounded-sm" />
-          <Button title="Small MD" className="text-sm rounded-md" />
-          <Button title="Small Full" className="text-sm rounded-full" />
+          <Button title="Small SM" className="text-sm rounded-sm rounded-lg" />
+          <Button title="Small MD" className="text-sm rounded-md rounded-lg" />
+          <Button title="Small Full" className="text-sm rounded-full rounded-lg" />
         </div>
       </div>
 
       <div className="space-y-2">
         <h2 className="font-medium">Medium Buttons</h2>
         <div className="flex gap-4">
-          <Button title="Medium SM" className="text-base rounded-sm" />
-          <Button title="Medium MD" className="text-base rounded-md" />
-          <Button title="Medium Full" className="text-base rounded-full" />
+          <Button title="Medium SM" className="text-base rounded-sm rounded-lg" />
+          <Button title="Medium MD" className="text-base rounded-md rounded-lg" />
+          <Button title="Medium Full" className="text-base rounded-ful rounded-lg" />
         </div>
       </div>
 
       <div className="space-y-2">
         <h2 className="font-medium">Large Buttons</h2>
         <div className="flex gap-4">
-          <Button title="Large SM" className="text-lg rounded-sm" />
-          <Button title="Large MD" className="text-lg rounded-md" />
-          <Button title="Large Full" className="text-lg rounded-full" />
+          <Button title="Large SM" className="text-lg rounded-sm rounded-lg" />
+          <Button title="Large MD" className="text-lg rounded-md rounded-lg" />
+          <Button title="Large Full" className="text-lg rounded-full rounded-lg" />
         </div>
       </div>
     </div>
