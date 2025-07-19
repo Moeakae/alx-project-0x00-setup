@@ -1,7 +1,7 @@
 
  type ButtonProps = {
     title: string;
-    style?: string;
+    style?: React.CSSProperties;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
     className?: string
 };
